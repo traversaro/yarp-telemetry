@@ -11,6 +11,7 @@ project(robometry LANGUAGES C CXX
 include(GNUInstallDirs)
 include(FeatureSummary)
 
+set(YCM_USE_3RDPARTY OFF)
 find_package(YCM 0.12 REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
